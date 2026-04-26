@@ -12,5 +12,4 @@ console.log(nomeCompleto);
 // usar nomes descritivos
 // evitar abreviacoes
 // evitar nomes grandes demais
-
-
+// evitar palavras reservadas
