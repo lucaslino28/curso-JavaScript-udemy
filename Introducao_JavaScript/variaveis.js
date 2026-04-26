@@ -1,7 +1,7 @@
 let nome = "Lucas";
 
 /* 
-Declarando a variavel utilizando let (mutável), o valor da variável poder ser subscrito, 
+Declarando a variavel utilizando let (mutável), o valor da variável poder ser sobrescrito, 
 ou você pode alterar o tipo do valor da variável.
 */
 
