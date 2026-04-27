@@ -26,3 +26,12 @@ console.log(resultado4);
 console.log(resultado5);
 console.log(resultado6);
 console.log(resultado7);
+
+// Área de  um retângulo
+const base = 5;
+const altura = 10;
+let area = undefined;
+
+area = (base * altura) / 2;
+
+console.log(area);
