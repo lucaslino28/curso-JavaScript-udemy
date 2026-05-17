@@ -57,25 +57,26 @@ if (salarioBruto <= 1518.00) {
     console.log("Sua alíquota é de 7.5%");
     console.log(`Total INSS = R$ ${inss}`);
     salarioBase = salarioBruto - inss;
-    console.log(`Total Salário = R$ ${salarioBase}`);
+    console.log(`Salário Base = R$ ${salarioBase}`);
 } else if (salarioBruto <= 2793.88) {
     inss = salarioBruto * 0.09;
     console.log("Sua alíquota é de 9%");
     console.log(`Total INSS = R$ ${inss}`);
     salarioBase = salarioBruto - inss;
-    console.log(`Total Salário = R$ ${salarioBase}`);
+    console.log(`Salário Base = R$ ${salarioBase}`);
 } else if (salarioBruto <= 4190.83) {
     inss = salarioBruto * 0.12;
     console.log("Sua alíquota é de 12%");
     console.log(`Total INSS = R$ ${inss}`);
     salarioBase = salarioBruto - inss;
-    console.log(`Total Salário = R$ ${salarioBase}`);
+    console.log(`Salário Base = R$ ${salarioBase}`);
 } else if (salarioBruto <= 8157.41) {
     inss = salarioBruto * 0.14;
     console.log("Sua alíquota é de 14%");
     console.log(`Total INSS = R$ ${inss}`);
     salarioBase = salarioBruto - inss;
-    console.log(`Total Salário = R$ ${salarioBase}`);
+    console.log(`Salário Base = R$ ${salarioBase}`);
 } else {
     console.log("Salário acima do teto do INSS.");
 }
+
